@@ -13,13 +13,13 @@
         <module name="config" />
         <module name="eureka" />
         <module name="hystrix" />
-        <module name="maven-archiver" />
         <module name="msdashboard" />
         <module name="zuul" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="auth-server" target="1.5" />
+      <module name="maven-archiver" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

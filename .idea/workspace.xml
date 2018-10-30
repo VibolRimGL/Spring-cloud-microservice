@@ -2,131 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f5277ad-0404-4bd7-a461-342656c4db31" name="Default Changelist" comment="add new module auth-service">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/AuthServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/HibernateConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/encryption/Encoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/profile/Dev.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/AuthServerOuth2Confi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ResourceServerConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ServerSercurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/model/Authority.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/service/UserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/application-postgres.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V10__create_oauth2.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V11__create_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V12__insert_authentication.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V13__insert_authorities.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V14__insert_user.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V1__create_hibernate_sequence.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Auth-service/src/test/java/com/example/authservice/AuthServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/java/com/example/AdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/test/java/com/example/AdminApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-acl-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-aspects-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-cas-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-config-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-core-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-crypto-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-ldap-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-openid-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-remoting-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-taglibs-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/lib/spring-security-web-3.2.5.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/web/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auth-server/web/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/src/main/java/AuthserverApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/target/auth-server-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/target/classes/authserverApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/authserver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/src/main/java/com/example/CarmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/carms/src/test/java/com/example/CarmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/src/main/java/com/example/ColourmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/colourms/src/test/java/com/example/ColourmsApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/com/example/ConfigApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/test/java/com/example/ConfigApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/java/com/example/EurekaApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/src/test/java/com/example/EurekaApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/java/com/example/HystrixApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hystrix/src/test/java/com/example/HystrixApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/src/main/java/com/example/MsdashboardApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msdashboard/src/test/java/com/example/MsdashboardApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/java/com/example/ZuulApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zuul/src/test/java/com/example/ZuulApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/AuthServiceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/HibernateConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/encryption/Encoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/profile/Dev.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/AuthServerOuth2Confi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ResourceServerConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ServerSercurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/model/Authority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/service/UserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/application-postgres.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V10__create_oauth2.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V11__create_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V12__insert_authentication.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V13__insert_authorities.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V14__insert_user.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Auth-service/src/main/resources/postgresql/V1__create_hibernate_sequence.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/src/main/java/AuthserverApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/target/auth-server-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/target/classes/authserverApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/authserver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/carms/target/" />
     <ignored path="$PROJECT_DIR$/hystrix/target/" />
@@ -156,6 +67,7 @@
         <counts>
           <entry key="java" value="5" />
           <entry key="md" value="1" />
+          <entry key="properties" value="1" />
           <entry key="sql" value="3" />
           <entry key="xml" value="1" />
         </counts>
@@ -164,6 +76,7 @@
         <counts>
           <entry key="JAVA" value="5" />
           <entry key="Markdown" value="1" />
+          <entry key="Properties" value="1" />
           <entry key="SQL" value="3" />
           <entry key="XML" value="1" />
         </counts>
@@ -188,35 +101,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/AuthServerOuth2Confi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ResourceServerConfiguration.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ServerSercurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -329,7 +214,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540870096890" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540870392960" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -441,12 +326,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540867814857</updated>
-      <workItem from="1540867816237" duration="2277000" />
+      <workItem from="1540867816237" duration="2537000" />
     </task>
+    <task id="LOCAL-00001" summary="add new module auth-service">
+      <created>1540870185142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1540870185142</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2277000" />
+    <option name="totallyTimeSpent" value="2537000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -457,11 +350,11 @@
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
       <window_info id="Web" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15138593" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Run Dashboard" sideWeight="0.49946696" weight="0.3290461" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4989339" visible="true" weight="0.3290461" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4989339" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5010661" side_tool="true" visible="true" weight="0.3290461" />
       <window_info anchor="bottom" id="Messages" sideWeight="0.49946696" weight="0.3290461" />
       <window_info anchor="bottom" id="Java Enterprise" />
@@ -527,7 +420,7 @@
     <entry file="file://$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/AuthServerOuth2Confi.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="326">
-          <caret line="60" column="13" lean-forward="true" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
+          <caret line="60" column="13" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -550,8 +443,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Auth-service/src/main/java/com/example/authservice/configuration/server/ServerSercurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="45" lean-forward="true" selection-start-line="45" selection-end-line="45" />
+        <state relative-caret-position="289">
+          <caret line="32" column="49" selection-start-line="32" selection-start-column="49" selection-end-line="32" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authserver/target/maven-archiver/pom.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
