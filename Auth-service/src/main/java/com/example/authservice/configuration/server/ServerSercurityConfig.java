@@ -29,17 +29,16 @@ public class ServerSercurityConfig extends WebSecurityConfigurerAdapter {
     private UserDetailsService userDetailsService;
 
     @Autowired
-
-    private PasswordEncoder userPasswordEncoder ;
+    private PasswordEncoder userPasswordEncoder;
 
     @Override
     @Bean
-    public AuthenticationManager authenticationManager () throws Exception{
+    public AuthenticationManager authenticationManagerBean() throws Exception {
         return super.authenticationManagerBean();
     }
 
     @Override
-    protected void configure(AuthenticationManagerBuilder managerBuilder) throws Exception{
-        managerBuilder.userDetailsService(userDetailsService).passwordEncoder(userPasswordEncoder);
+    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        auth.userDetailsService(userDetailsService).passwordEncoder(userPasswordEncoder);
     }
 }

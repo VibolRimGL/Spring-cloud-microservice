@@ -3,6 +3,7 @@ package com.example.authservice.model;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;
+import java.io.Serializable;
 
 /**
  * Created by Rim vibol
@@ -11,8 +12,9 @@ import javax.persistence.*;
  */
 @Entity
 @Table(name = "AUTHORITY", uniqueConstraints = {@UniqueConstraint(columnNames = {"NAME"})})
-public class Authority implements GrantedAuthority {
+public class Authority implements GrantedAuthority, Serializable {
 
+    private static final long serialVersionUID = -4514163858692411884L;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "ID")
@@ -39,6 +41,6 @@ public class Authority implements GrantedAuthority {
 
     @Override
     public String getAuthority() {
-        return getName();
+        return name;
     }
 }

@@ -25,18 +25,19 @@ public class HibernateConfiguration {
 
     @Bean
     public Module hibernate5Module() {
-
         return new Hibernate5Module();
     }
+
     @Bean
-    public PlatformTransactionManager transactionManager (EntityManagerFactory factory){
-        JpaTransactionManager jpaTransactionManager = new JpaTransactionManager();
-        jpaTransactionManager.setEntityManagerFactory(factory);
-        return jpaTransactionManager;
+    public PlatformTransactionManager transactionManager(EntityManagerFactory emf) {
+        JpaTransactionManager transactionManager = new JpaTransactionManager();
+        transactionManager.setEntityManagerFactory(emf);
+
+        return transactionManager;
     }
 
     @Bean
-    public PersistenceExceptionTranslationPostProcessor processor (){
-        return  new PersistenceExceptionTranslationPostProcessor();
+    public PersistenceExceptionTranslationPostProcessor exceptionTranslation() {
+        return new PersistenceExceptionTranslationPostProcessor();
     }
 }
